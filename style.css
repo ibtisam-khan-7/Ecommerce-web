@@ -1,0 +1,151 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600;700&display=swap');
+
+body {
+    font-family: 'Poppins', sans-serif;
+     
+}
+
+/* hero */
+
+#hero {
+    background-image: url('images/bg4.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    height: 100vh;
+}
+
+.h-content {
+    position: relative;
+    top: 150px;
+    width: 500px;
+
+}
+
+.h-content h2 {
+    font-size: 46px;
+    font-weight: 700;
+}
+
+.pic-text {
+    width: 230px;
+    background-color: #e0eeff;
+    border-radius: 8px;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    gap: 40px;
+    padding: 20px 0px;
+
+}
+
+.ebike-img {
+    height: 90px;
+    width: 90px;
+    border-radius: 50%;
+    background-color: #0077ff;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+/* new arrival */
+
+#arrival {
+    padding: 100px 0px;
+    background-color: #f2faf6;
+}
+
+.card-body a {
+    padding: 5px 60px;
+    display: none;
+}
+
+.card-h:hover .card-body a {
+    display: block;
+    
+}
+
+.card-h {
+    box-shadow: 0 10px 20px rgba(0, 0, 0, 0.19);
+    border-radius: 10px;
+    transition: all 1s ease;
+}
+
+.card-h:hover {
+    transform: scale(1.05);
+    cursor: pointer;
+}
+
+/* cards */
+
+#cards {
+    margin: 70px 0px;
+}
+
+.card-cnt-1 {
+    border-radius: 20px;
+    background-image: url('images/scooter.png');
+    background-position: center;
+    background-size: cover;
+    height: 50vh;
+}
+
+.card-cnt-2 {
+    border-radius: 20px;
+    background-image: url('images/accessories.png');
+    background-position: center;
+    background-size: cover;
+    height: 50vh;
+}
+
+/* f-product */
+
+#f-product {
+    padding: 50px 0px;
+    background-color: #f2faf6;
+}
+
+/* prduct */
+#product {
+    margin: 150px 0px;
+}
+
+/* shipping */
+#shiipping {
+    background-color: #f2faf6;
+    padding: 100px 0px;
+}
+
+.shipping-icon {
+    height: 75px;
+    width: 75px;
+    border-radius: 50%;
+    background-color: #0077ff;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.s-icon {
+    box-shadow: 0 10px 20px rgba(0, 0, 0, 0.19);
+    border-radius: 10px;
+    width: 320px;
+    background-color: white;
+}
+
+/* footer */
+
+#footer p {
+    font-size: 0.9rem;
+    line-height: 1.6;
+}
+
+li {
+    padding: 5px 0px;
+}
+
+#footer p, a{
+    color: #747474;
+}
+
