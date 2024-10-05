@@ -2,7 +2,7 @@
 
 body {
     font-family: 'Poppins', sans-serif;
-     
+
 }
 
 /* hero */
@@ -63,7 +63,7 @@ body {
 
 .card-h:hover .card-body a {
     display: block;
-    
+
 }
 
 .card-h {
@@ -112,7 +112,7 @@ body {
 }
 
 /* shipping */
-#shiipping {
+#shipping {
     background-color: #f2faf6;
     padding: 100px 0px;
 }
@@ -145,7 +145,7 @@ li {
     padding: 5px 0px;
 }
 
-#footer p, a{
+#footer p,
+a {
     color: #747474;
 }
-
